@@ -17,7 +17,13 @@
         <span class="header__title__bold">Bicycle</span>
       </h1>
     </div>
-    <div class="header__button"><button><img class="header__busket" src="./images/trigger.svg"></button></div>
+    <label class="header__button">
+      <input class="visually-hidden cart-hidden" type="radio" name="cart">
+      <span class="cart button"></span>
+    <!--<select class="visually-hidden">
+      <span class="select"></span>
+    </select>!-->
+  </label>
   </header>
   <main>
     
@@ -36,7 +42,7 @@
         <h2 class="product-list__header__title">Горные велосипеды</h2>
         <p class="product-list__header__text">Здесь собраны модели для бездорожья, лесных троп, горных подъемов и скоростных спусков. В нашем каталоге — надежные байки для новичков, любителей активного отдыха и опытных райдеров. Подберите идеальный MTB под свой стиль катания и бюджет — от классических хардтейлов до высокотехнологичных двухподвесов.</p>
       </section>
-      <article class="card">
+      <article class="card card-sale">
         <div class="card__image-1245 card__image-all">
            <div class="overlay"></div>
         </div>
@@ -47,7 +53,7 @@
                 <span class="card__content_price_old">22 999 руб </span>
               <span class="card__content_price_new">12 999 руб</span>
               </div>
-              <div class="card__buttons"><button class="card__buttons-buy">Купить</button>
+              <div class="card__buttons"><button class="button card__buttons-buy">Купить</button>
               <label>
               <input class="checkbox-hidden" type="checkbox" name="checkbox">
               <span class="checkbox"></span>
@@ -64,7 +70,7 @@
               <div>
               <span class="card__content_price_new">23 999 руб</span>
               </div>
-              <div class="card__buttons"><button class="card__buttons-buy">Купить</button>
+              <div class="card__buttons"><button class="button card__buttons-buy">Купить</button>
               <label>
               <input class="checkbox-hidden" type="checkbox" name="checkbox">
               <span class="checkbox"></span>
@@ -73,7 +79,7 @@
             </div>
             </div>
       </article>
-      <article class="card">
+      <article class="card card-new">
         <div class="card__image-Monster card__image-all"></div>
         <div class="card__content">
               <h3 class="card__content-title">Велосипед MONSTER 32</h3>
@@ -81,7 +87,7 @@
               <div>
               <span class="card__content_price_new">47 999 руб</span>
               </div>
-              <div class="card__buttons"><button class="card__buttons-buy">Купить</button>
+              <div class="card__buttons"><button class="button card__buttons-buy">Купить</button>
               <label>
               <input class="checkbox-hidden" type="checkbox" name="checkbox">
               <span class="checkbox"></span>
@@ -98,7 +104,7 @@
               <div>
               <span class="card__content_price_new">9 999 руб</span>
               </div>
-              <div class="card__buttons"><button class="card__buttons-buy">Купить</button>
+              <div class="card__buttons"><button class="button card__buttons-buy">Купить</button>
               <label>
               <input class="checkbox-hidden" type="checkbox" name="checkbox">
               <span class="checkbox"></span>
